@@ -36,12 +36,6 @@ I train CNNs that catch defects in PIN diodes, write firmware that pulls reading
 - **김포 SW/AI 경진대회** — 장려상 (4위)
   <br><sub>Honorable mention (4th place)</sub>
 
-### Now
-
-- 🔬 PhoSem — 고객사 의뢰로 PIN 다이오드 불량 검출 CNN 개발
-- 🤖 NAVER Connect Robotics Cup 2026 — IsaacLab에서 휴머노이드 RL 정책 튜닝
-- 🛠️ 22명 규모 임베디드 동아리 Nonamed 회장 · M_lab 커널 스터디 공동 설립
-
 <sub>[Blog](https://ysh223.tistory.com/) · [TIL](https://github.com/ilfpns/IL) · yeomsh09@gmail.com</sub>
 
 ### GitHub Stats
