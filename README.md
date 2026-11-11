@@ -6,8 +6,8 @@
 I train CNNs that catch defects in PIN diodes, write firmware that pulls readings off devices, and build apps on top of foundation models.</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cts%2Celectron%2Cfastapi%2Csqlite%2Cgit&perline=14&theme=dark">
-  <img alt="C, C++, Python, PyTorch, TensorFlow, OpenCV, Linux, Raspberry Pi, CMake, TypeScript, Electron, FastAPI, SQLite, Git" src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cts%2Celectron%2Cfastapi%2Csqlite%2Cgit&perline=14&theme=light" height="34">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cts%2Cfastapi%2Csqlite%2Cgit&perline=14&theme=dark">
+  <img alt="C, C++, Python, PyTorch, TensorFlow, OpenCV, Linux, Raspberry Pi, CMake, TypeScript, FastAPI, SQLite, Git" src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cts%2Cfastapi%2Csqlite%2Cgit&perline=14&theme=light" height="34">
 </picture>
 
 ### Projects
@@ -16,10 +16,6 @@ I train CNNs that catch defects in PIN diodes, write firmware that pulls reading
 <a href="https://github.com/ilfpns/PhoSem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-phosem-dark.svg"><img alt="PhoSem" src="assets/project-phosem-light.svg" width="350"></picture></a>
 <a href="https://github.com/ilfpns/pith"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-pith-dark.svg"><img alt="pith" src="assets/project-pith-light.svg" width="350"></picture></a>
 <br>
-<a href="https://github.com/ilfpns/WinBar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-winbar-dark.svg"><img alt="WinBar" src="assets/project-winbar-light.svg" width="350"></picture></a>
-<a href="https://github.com/ilfpns/Mulddungddunge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-mulddungddunge-dark.svg"><img alt="Mulddungddunge" src="assets/project-mulddungddunge-light.svg" width="350"></picture></a>
-<br>
-<a href="https://github.com/ilfpns/SpotI"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-spoti-dark.svg"><img alt="SpotI" src="assets/project-spoti-light.svg" width="350"></picture></a>
 <a href="https://github.com/ilfpns/Quant"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-quant-dark.svg"><img alt="Quant" src="assets/project-quant-light.svg" width="350"></picture></a>
 </div>
 
