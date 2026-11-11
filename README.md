@@ -25,9 +25,16 @@ I train CNNs that catch defects in PIN diodes, write firmware that pulls reading
 
 ### Awards
 
-- **WRO 2026** — 금상 · Gold medal
-- **PIUDA** — 수상 · Award
-- **김포 SW·AI 경진대회** — 수상 · Gimpo SW/AI Competition award
+- **WRO Korea 2026** — 금상 (2위) · 국제대회 진출권
+  <br><sub>Gold (2nd place), qualified for the international final</sub>
+- **빛가람 AI·ICT 경진대회** — 수상
+  <br><sub>Bitgaram AI·ICT Competition award</sub>
+- **PhoSem** — 우수 개발물 표창장
+  <br><sub>Commendation for outstanding development (PIN diode defect detection)</sub>
+- **2026 글로벌 피우다 프로젝트** — 장려상 · WiFi CSI 기반 낙상 감지 Edge AI
+  <br><sub>Honorable mention, WiFi-CSI fall detection on ESP32</sub>
+- **김포 SW/AI 경진대회** — 장려상 (4위)
+  <br><sub>Honorable mention (4th place)</sub>
 
 ### Now
 
@@ -35,7 +42,7 @@ I train CNNs that catch defects in PIN diodes, write firmware that pulls reading
 - 🤖 NAVER Connect Robotics Cup 2026 — IsaacLab에서 휴머노이드 RL 정책 튜닝
 - 🛠️ 22명 규모 임베디드 동아리 Nonamed 회장 · M_lab 커널 스터디 공동 설립
 
-<sub>[Portfolio](https://ilfpns.github.io) · [TIL](https://github.com/ilfpns/IL) · yeomsh09@gmail.com</sub>
+<sub>[Blog](https://ysh223.tistory.com/) · [TIL](https://github.com/ilfpns/IL) · yeomsh09@gmail.com</sub>
 
 ### GitHub Stats
 
