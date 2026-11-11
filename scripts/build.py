@@ -30,15 +30,9 @@ HEADER = dict(
 )
 
 PROJECTS = [
-    dict(slug="phosem", title="PhoSem",
-         lines=["PIN 다이오드 불량 검출 AI.", "MIL 분류기와 PatchCore 이상탐지를 결합"],
-         tags="Python  ·  PyTorch  ·  PatchCore  ·  MIL"),
-    dict(slug="pith", title="pith",
-         lines=["HAL 없이 레지스터부터 만든 STM32", "베어메탈 RTOS. PendSV 컨텍스트 스위칭"],
-         tags="C  ·  STM32  ·  Cortex-M  ·  RTOS"),
-    dict(slug="quant", title="Quant",
-         lines=["PyTorch 모델 양자화 실험.", "Jetson + TensorRT INT8 배포가 목표"],
-         tags="Python  ·  PyTorch  ·  TensorRT"),
+    dict(slug="phosem", title="PhoSem", desc="PIN 다이오드 불량 검출 AI", tags="Python  ·  PyTorch"),
+    dict(slug="pith", title="pith", desc="STM32 베어메탈 RTOS", tags="C  ·  STM32"),
+    dict(slug="quant", title="Quant", desc="PyTorch 모델 양자화 실험", tags="Python  ·  TensorRT"),
 ]
 
 
@@ -59,12 +53,12 @@ def header(t):
 
 
 def project(p, t):
-    body = frame(350, 130, t)
-    body += f'<text x="20" y="34" font-size="15" font-weight="600" fill="{t["accent"]}">{escape(p["title"])}</text>'
-    for i, line in enumerate(p["lines"]):
-        body += f'<text x="20" y="{60 + i * 19}" font-size="13" fill="{t["fg"]}">{escape(line)}</text>'
-    body += f'<text x="20" y="112" font-size="12" fill="{t["muted"]}">{escape(p["tags"])}</text>'
-    return svg(350, 130, p["title"], body)
+    w, h = 230, 104
+    body = frame(w, h, t)
+    body += f'<text x="18" y="32" font-size="15" font-weight="600" fill="{t["accent"]}">{escape(p["title"])}</text>'
+    body += f'<text x="18" y="58" font-size="13" fill="{t["fg"]}">{escape(p["desc"])}</text>'
+    body += f'<text x="18" y="86" font-size="12" fill="{t["muted"]}">{escape(p["tags"])}</text>'
+    return svg(w, h, p["title"], body)
 
 
 def section_title(title, t):
