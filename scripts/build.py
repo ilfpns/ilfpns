@@ -29,6 +29,15 @@ HEADER = dict(
     sub="염세현  ·  AI & Embedded Engineer  ·  Daedeok Software Meister High School",
 )
 
+STACK = [
+    ("Language", "C  ·  C++  ·  Python"),
+    ("MCU · Board", "STM32  ·  ESP32  ·  Raspberry Pi  ·  Zynq-7000  ·  Jetson"),
+    ("RTOS · Embedded Linux", "Bare-metal  ·  FreeRTOS  ·  Linux  ·  PetaLinux  ·  U-Boot"),
+    ("Protocol", "UART  ·  SPI  ·  I2C  ·  MQTT  ·  BLE"),
+    ("AI", "PyTorch  ·  TFLite Micro  ·  OpenCV  ·  GStreamer"),
+    ("Tools", "Git  ·  Notion  ·  Obsidian  ·  QEMU  ·  Linear"),
+]
+
 PROJECTS = [
     dict(slug="phosem", title="PhoSem", desc="PIN 다이오드 불량 검출 AI", tags="Python  ·  PyTorch"),
     dict(slug="pith", title="pith", desc="STM32 베어메탈 RTOS", tags="C  ·  STM32"),
@@ -59,6 +68,18 @@ def project(p, t):
     body += f'<text x="18" y="58" font-size="13" fill="{t["fg"]}">{escape(p["desc"])}</text>'
     body += f'<text x="18" y="86" font-size="12" fill="{t["muted"]}">{escape(p["tags"])}</text>'
     return svg(w, h, p["title"], body)
+
+
+def stack_card(t):
+    w, h = 708, 70 + len(STACK) * 30
+    body = frame(w, h, t) + section_title("Tech Stack", t)
+    for i, (label, items) in enumerate(STACK):
+        y = 72 + i * 30
+        if i:
+            body += f'<line x1="24" y1="{y - 19}" x2="{w - 24}" y2="{y - 19}" stroke="{t["border"]}" stroke-width="1"/>'
+        body += (f'<text x="24" y="{y}" font-size="13" fill="{t["muted"]}">{escape(label)}</text>'
+                 f'<text x="210" y="{y}" font-size="13" fill="{t["fg"]}">{escape(items)}</text>')
+    return svg(w, h, "Tech Stack", body)
 
 
 def section_title(title, t):
@@ -150,6 +171,7 @@ def main():
     rows, langs = fetch_stats()
     for mode, t in THEMES.items():
         write(f"header-{mode}.svg", header(t))
+        write(f"stack-{mode}.svg", stack_card(t))
         for p in PROJECTS:
             write(f"card-{p['slug']}-{mode}.svg", project(p, t))
         write(f"stats-{mode}.svg", stats_card(rows, t))

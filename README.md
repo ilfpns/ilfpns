@@ -10,14 +10,7 @@ I train CNNs that catch defects in PIN diodes, write firmware that pulls reading
   <img alt="C, C++, Python, PyTorch, TensorFlow, OpenCV, Linux, Raspberry Pi, CMake, Git, Notion, Obsidian" src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cgit%2Cnotion%2Cobsidian&perline=14&theme=light" height="34">
 </picture>
 
-<table>
-<tr><td><b>Language</b></td><td>C · C++ · Python</td></tr>
-<tr><td><b>MCU · Board</b></td><td>STM32 · ESP32 · Raspberry Pi · Zynq-7000 · Jetson</td></tr>
-<tr><td><b>RTOS · Embedded Linux</b></td><td>Bare-metal · FreeRTOS · Linux · PetaLinux · U-Boot</td></tr>
-<tr><td><b>Protocol</b></td><td>UART · SPI · I2C · MQTT · BLE</td></tr>
-<tr><td><b>AI</b></td><td>PyTorch · TFLite Micro · OpenCV · GStreamer</td></tr>
-<tr><td><b>Tools</b></td><td>Git · Notion · Obsidian · QEMU · Linear</td></tr>
-</table>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img alt="Tech stack: C, C++, Python, STM32, ESP32, Raspberry Pi, Zynq-7000, Jetson, Bare-metal, FreeRTOS, Linux, PetaLinux, U-Boot, UART, SPI, I2C, MQTT, BLE, PyTorch, TFLite Micro, OpenCV, GStreamer, Git, Notion, Obsidian, QEMU, Linear" src="assets/stack-light.svg" width="708"></picture>
 
 ### Projects
 
