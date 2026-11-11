@@ -151,7 +151,7 @@ def main():
     for mode, t in THEMES.items():
         write(f"header-{mode}.svg", header(t))
         for p in PROJECTS:
-            write(f"project-{p['slug']}-{mode}.svg", project(p, t))
+            write(f"card-{p['slug']}-{mode}.svg", project(p, t))
         write(f"stats-{mode}.svg", stats_card(rows, t))
         write(f"langs-{mode}.svg", langs_card(langs, t))
 

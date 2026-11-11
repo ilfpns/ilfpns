@@ -22,9 +22,9 @@ I train CNNs that catch defects in PIN diodes, write firmware that pulls reading
 ### Projects
 
 <div align="center">
-<a href="https://github.com/ilfpns/PhoSem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-phosem-dark.svg"><img alt="PhoSem" src="assets/project-phosem-light.svg" width="230"></picture></a>
-<a href="https://github.com/ilfpns/pith"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-pith-dark.svg"><img alt="pith" src="assets/project-pith-light.svg" width="230"></picture></a>
-<a href="https://github.com/ilfpns/Quant"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-quant-dark.svg"><img alt="Quant" src="assets/project-quant-light.svg" width="230"></picture></a>
+<a href="https://github.com/ilfpns/PhoSem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-phosem-dark.svg"><img alt="PhoSem" src="assets/card-phosem-light.svg" width="230"></picture></a>
+<a href="https://github.com/ilfpns/pith"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-pith-dark.svg"><img alt="pith" src="assets/card-pith-light.svg" width="230"></picture></a>
+<a href="https://github.com/ilfpns/Quant"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-quant-dark.svg"><img alt="Quant" src="assets/card-quant-light.svg" width="230"></picture></a>
 </div>
 
 ### Awards
