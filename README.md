@@ -6,9 +6,18 @@
 I train CNNs that catch defects in PIN diodes, write firmware that pulls readings off devices, and build apps on top of foundation models.</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cgit&perline=14&theme=dark">
-  <img alt="C, C++, Python, PyTorch, TensorFlow, OpenCV, Linux, Raspberry Pi, CMake, Git" src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cgit&perline=14&theme=light" height="34">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cgit%2Cnotion%2Cobsidian&perline=14&theme=dark">
+  <img alt="C, C++, Python, PyTorch, TensorFlow, OpenCV, Linux, Raspberry Pi, CMake, Git, Notion, Obsidian" src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cpytorch%2Ctensorflow%2Copencv%2Clinux%2Craspberrypi%2Ccmake%2Cgit%2Cnotion%2Cobsidian&perline=14&theme=light" height="34">
 </picture>
+
+| | |
+|---|---|
+| **Language** | C · C++ · Python |
+| **MCU · Board** | STM32 · ESP32 · Raspberry Pi · Zynq-7000 · Jetson |
+| **RTOS · Embedded Linux** | Bare-metal · FreeRTOS · Linux · PetaLinux · U-Boot |
+| **Protocol** | UART · SPI · I2C · MQTT · BLE |
+| **AI** | PyTorch · TFLite Micro · OpenCV · GStreamer |
+| **Tools** | Git · Notion · Obsidian · QEMU · Linear |
 
 ### Projects
 
