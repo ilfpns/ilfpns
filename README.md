@@ -28,7 +28,7 @@ I train CNNs that catch defects in PIN diodes, write firmware that pulls reading
   <br><sub>Bitgaram AI·ICT Competition award</sub>
 - **PhoSem** — 우수 개발물 표창장
   <br><sub>Commendation for outstanding development (PIN diode defect detection)</sub>
-- **2026 글로벌 피우다 프로젝트** — 장려상 ·
+- **2026 글로벌 피우다 프로젝트** — 장려상 
   <br><sub>Honorable mention, WiFi-CSI fall detection on ESP32</sub>
 - **김포 SW/AI 경진대회** — 장려상 (4위)
   <br><sub>Honorable mention (4th place)</sub>
